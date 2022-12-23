@@ -64,9 +64,9 @@ namespace HairSalon.Controllers
     }
 
     [HttpPost]
-    public ActionResult Edit(Stylist cuisine)
+    public ActionResult Edit(Stylist stylist)
     {
-      _db.Stylists.Update(cuisine);
+      _db.Stylists.Update(stylist);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
