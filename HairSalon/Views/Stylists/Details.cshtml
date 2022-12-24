@@ -24,7 +24,7 @@
             </ul>
         }
 
-        <button type="submit">@Html.ActionLink("Add a new Client", "Create", "Clients")</button><br><br>
-        <p>@Html.ActionLink("Edit Stylist!", "Edit", new { id = Model.StylistId })</p>
-        <p>@Html.ActionLink("Remove Stylist!", "Delete", new { id = Model.StylistId })</p>
-        <p>@Html.ActionLink("Back to the list!", "Index")</p>
+        @Html.ActionLink("Add a new Client", "Create", "Clients")<br>
+        @Html.ActionLink("Edit Stylist!", "Edit", new { id = Model.StylistId })<br>
+        @Html.ActionLink("Remove Stylist!", "Delete", new { id = Model.StylistId })<br>
+        @Html.ActionLink("Back to the list!", "Index")

@@ -15,3 +15,16 @@ img.salon {
   height: 400px;
   border: 8px solid #FFE5B4;
 }
+
+button {
+  color: #4169E1;
+}
+
+li {
+  list-style-position: inside;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
